@@ -12,6 +12,9 @@ gem "sqlite3", "~> 1.4"
 
 gem "puma", "~> 5.0"
 
+gem 'sass-rails', '~> 6.0'
+
+
 gem "importmap-rails"
 
 gem "turbo-rails"
@@ -19,6 +22,10 @@ gem "turbo-rails"
 gem "stimulus-rails"
 
 gem "jbuilder"
+
+gem 'devise', '~> 4.8', '>= 4.8.1'
+
+gem 'jquery-rails', '~> 4.5'
 
 # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 4.0"
